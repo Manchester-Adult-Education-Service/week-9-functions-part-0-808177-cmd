@@ -21,10 +21,10 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# creat a list four items foods
 cart = ["apple", "bread", "milk", "eggs"]
-total_items = len(cart)
-
+total_items = len(cart) # number of items cart list
+# print total items you have items in your cart
 print(f"You have {total_items} items in your cart")
 
 for item in cart:
@@ -40,7 +40,9 @@ print("-------------------------------------------\n"
 # Add comments to explain this code:
 
 score = int(input("Enter your test score: "))
-
+# if the score greter than or equal 70 the gread is "pass"
+#if the score less than or equal 69 the gread is "fail"
+#print your grade
 if score >= 70:
     grade = "Pass"
 else:
@@ -56,7 +58,14 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+#creat a password
+# Tony
+# has_upper = Tony != tony
+# has_lower = Tony != TONY
+# is valid = is long and has upper and has lower
+# if is valid:
+# print password accepted!
+# print "password rejected. must be 8+ characters with upper and lowrcase letters."
 password = input("Create a password: ")
 
 is_long = len(password) >= 8
@@ -78,7 +87,11 @@ print("-------------------------------------------\n"
       + "-------------------------------------------")
 
 # Add comments to explain this code:
-
+# creat a number  list number
+# even count = 0
+# if number in numbers
+# if num % 2 == 0:
+# print "There are even count even number in the list"
 numbers = [12, 7, 18, 5, 22, 9, 14]
 even_count = 0
 
